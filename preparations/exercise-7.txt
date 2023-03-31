@@ -1,0 +1,10 @@
+Which of the following names satisfy the style guidelines for function names?
+
+index - satisfy
+CatName - satisfy
+snake_case
+lazyDog - satisfy
+quick_Fox
+1stCharacter
+operand2 - satisfy
+BIG_NUMBER
