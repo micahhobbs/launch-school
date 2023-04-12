@@ -1,7 +1,7 @@
 // Write a function that extracts the language code from a locale.
 
 function extractLanguage(locale) {
-  return locale.substring(0,2)
+  return locale.substring(0,2);
 }
 
 console.log(extractLanguage('en_US.UTF-8'));  // 'en'
