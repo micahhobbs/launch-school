@@ -1,4 +1,4 @@
-const readline = require ('readline-sync');
+const readline = require('readline-sync');
 const messages = require('./calculator_messages.json');
 
 function prompt(message) {
