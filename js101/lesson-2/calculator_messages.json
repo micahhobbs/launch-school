@@ -1,9 +1,36 @@
 {
-  "welcome": "Welcome to Calculator!",
-  "firstNumber": "What's your first number?",
-  "secondNumber": "What's your second number?",
-  "invalidNumber": "Hmm... that doesn't look like a valid number.",
-  "operation": "What operation would you like to perform?\n1) Add 2) Subtract 3) Multiply 4) Divide", 
-  "operationChoice": "Must choose 1, 2, 3 or 4",
-  "anotherCalculation": "Would you like to perform another calculation? (Y/N)"
+  "language": "Please select your language - \n1) English \n2) Spanish \n3) French",
+  "english": {
+    "welcome": "Welcome to Calculator!",
+    "firstNumber": "What's your first number?",
+    "secondNumber": "What's your second number?",
+    "invalidNumber": "Hmm... that doesn't look like a valid number.",
+    "operation": "What operation would you like to perform?\n1) Add 2) Subtract 3) Multiply 4) Divide", 
+    "operationChoice": "Must choose 1, 2, 3 or 4",
+    "result": "The result is: ",
+    "anotherCalculation": "Would you like to perform another calculation?\n1) Yes 2) No", 
+    "thanks": "Thanks for playing." 
+  }, 
+  "spanish": {
+    "welcome": "¡Bienvenido a Calculadora!",
+    "firstNumber": "¿Cuál es tu primer número?",
+    "secondNumber": "¿Cuál es tu segundo número?",
+    "invalidNumber": "Hmm... eso no parece un número válido.",
+    "operation": "¿Qué operación le gustaría realizar?\n1) Sumar 2) Restar 3) Multiplicar 4) Dividir", 
+    "operationChoice": "Debe elegir 1, 2, 3 o 4",
+    "result": "El resultado es: ",
+    "anotherCalculation": "¿Desea realizar otro cálculo? \n1) Sí 2) No", 
+    "thanks": "Gracias por jugar."
+  },
+  "french": {
+    "welcome": "Bienvenue sur Calculatrice !",
+    "firstNumber": "Quel est votre premier numéro ?",
+    "secondNumber": "Quel est votre deuxième numéro ?",
+    "invalidNumber": "Hmm... eso no parece un número válido.",
+    "operation": "Quelle opération souhaitez-vous effectuer ?\n1) Additionner 2) Soustraire 3) Multiplier 4) Diviser", 
+    "operationChoice": "Vous devez choisir 1, 2, 3 ou 4",
+    "result": "Le résultat est : ",
+    "anotherCalculation": "Souhaitez-vous effectuer un autre calcul ?\n1) Oui 2) Non", 
+    "thanks": "Gracias por jugar."
+  }
 }
