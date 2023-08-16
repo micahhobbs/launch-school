@@ -5,6 +5,11 @@ function prompt(message) {
   console.log(`=> ${message}`);
 }
 
+// TODO 
+// - Add validation 
+// - Add loop to ask again
+// - Split out messages into own JSON file
+
 prompt('Welcome to Loan Calculator');
 
 prompt('How much is your loan?');
