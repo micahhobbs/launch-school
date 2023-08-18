@@ -1,5 +1,7 @@
 function isLeapYear(year) {
-  if (year % 400 === 0) {
+  if ((year < 1752) && (year % 4 === 0)) {
+    return true;
+  } else if (year % 400 === 0) {
     return true;
   } else if (year % 100 === 0) {
     return false;
@@ -18,7 +20,7 @@ console.log(isLeapYear(240001));    // false
 console.log(isLeapYear(2000));      // true
 console.log(isLeapYear(1900));      // false
 console.log(isLeapYear(1752));      // true
-console.log(isLeapYear(1700));      // false
+console.log(isLeapYear(1700));      // true
 console.log(isLeapYear(1));         // false
-console.log(isLeapYear(100));       // false
+console.log(isLeapYear(100));       // true
 console.log(isLeapYear(400));       // true
